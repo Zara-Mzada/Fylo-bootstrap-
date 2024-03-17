@@ -1,0 +1,224 @@
+/* ===== Colors ===== */
+:root{
+    --dark-blue: #07043B;
+    --button-blue: #2F65F8;
+    --inside-label: #C2C2C2;
+    --white: #FFFFFF;
+    --green-link: #3DA08F;
+    --green-hover: #71DFCC;
+    --footer-purple: #575988;
+    --light-purpple: #F8F8FE;
+    --button-hover: #6C9BFF;
+    --active-red: #EF4877;
+    --ptag-responsive: #615F7E;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+    color: var(--dark-blue) !important;
+    background-color: var(--white);
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+h1{
+    font-family: 'Raleway';
+}
+
+ul li a{
+    font-family: 'Raleway';
+}
+
+.pt-9{
+    padding: 100px 0px;
+}
+
+.pt-10{
+    padding-top: 150px;
+}
+
+/* ##### Header ##### */
+.header-home_flex-left{
+    width: 35rem;
+}
+
+.header-home_flex-left > h1{
+    font-size: 2rem;
+}
+
+.header-home_flex-left > p{
+    font-size: 1.1rem;
+    margin: 0px;
+}
+
+.header-home_flex-left > form input{
+    width: 320px;
+    padding: 12px;
+    font-size: 14px;
+}
+
+.header-home_flex-left > form button{
+    background-color: var(--button-blue);
+    color: var(--white);
+    width: 200px;
+    padding: 14px 5px;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* ##### Features ##### */
+.features{
+    background-image: url(../img/Background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0px 70px;
+    margin-top: 125px;
+}
+
+.features-flex_left > h1{
+    font-size: 2rem;
+    margin: 0px;
+}
+
+.features-flex_left > p{
+    width: 565px;
+    font-size: 1.1rem;
+    margin: 15px 0px;
+}
+
+.features-flex_left_link{
+    width: 166px;
+    border-bottom: 1px solid var(--green-link);
+    color: var(--green-link);
+    cursor: pointer;
+}
+
+.features-flex_comment{
+    width: 360px;
+    box-shadow: 0px 0px 10px 5px rgba(56, 56, 56, 0.04);
+    padding: 15px 0px;
+    margin-top: 50px;
+}
+
+.features-flex_comment_cont{
+    width: 300px;
+    margin: auto;
+}
+
+.features-flex_comment_cont > p{
+    margin: 20px 0px;
+    font-size: 0.8rem;
+    text-align: left;
+    width: 275px;
+    line-height: 1.5rem;
+}
+
+.features-flex_comment_avatar{
+    display: flex;
+}
+
+.features-flex_comment_avatar > img{
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 50%;
+}
+
+.features-flex_comment_text{
+    margin-left: 10px;
+}
+
+.features-flex_comment_text > h3{
+    margin: 0px;
+    font-size: 0.8rem;
+}
+
+.features-flex_comment_text > p{
+    margin: 0px;
+    font-size: 0.6rem;
+}
+
+/* ##### Team ##### */
+.team{
+    background-color: var(--footer-purple);
+}
+
+.team-flex_left{
+    color: var(--white);
+    width: 540px;
+}
+
+.team-flex_left > h2{
+    margin: 0px;
+}
+
+.team-flex_left > p{
+    margin: 10px 0px;
+    font-size: 1.1rem;
+}
+
+.team-flex_right form input{
+    width: 480px;
+    padding: 12px;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.team-flex_right form button{
+    background-color: var(--button-blue);
+    color: var(--white);
+    width: 200px;
+    padding: 14px 5px;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* ##### Footer ##### */
+.footer{
+    background-color: var(--dark-blue);
+    padding: 80px 0px;
+}
+
+.footer-flex_up{
+    margin-bottom: 30px;
+}
+
+.fa{
+    margin-right: 10px;
+}
+
+.footer-flex_down ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.footer-flex_down ul li{
+    margin-bottom: 10px;
+}
+
+.footer-flex_down ul li a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+/* ========================== 
+         Desktop Active      
+   ==========================*/
+   form button:hover{
+    background-color: var(--button-hover);
+}
+
+.footer ul li a:hover{
+    color: var(--button-hover);
+}
+
+.bi-social:hover{
+    color: var(--button-hover);
+    border-color: var(--button-hover);
+}
