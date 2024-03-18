@@ -36,7 +36,11 @@ ul li a{
 }
 
 .pt-10{
-    padding-top: 150px;
+    padding-top: 100px;
+}
+
+.image{
+    width: 100%;
 }
 
 /* ##### Header ##### */
@@ -75,8 +79,8 @@ ul li a{
     background-image: url(../img/Background.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     padding: 150px 0px 70px;
-    margin-top: 125px;
 }
 
 .features-flex_left > h1{
@@ -85,7 +89,6 @@ ul li a{
 }
 
 .features-flex_left > p{
-    width: 565px;
     font-size: 1.1rem;
     margin: 15px 0px;
 }
